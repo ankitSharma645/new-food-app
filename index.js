@@ -10,7 +10,7 @@ mongoDB();
 app.use(cors());
 app.use(morgan("dev"));
 app.use((req,res,next)=>{
-    res.setHeader("Access-Control-Allow-Origin","https://666e6d8184039e7d71444f86--frolicking-lokum-9c86f1.netlify.app");
+    res.setHeader("Access-Control-Allow-Origin","https://qity.netlify.app");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin,X-Requested-With,Content-Type,Accept"
